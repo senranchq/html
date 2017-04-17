@@ -1,0 +1,161 @@
+<!doctype html>
+<html class="no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SR个人空间</title>
+		<Script type="text/javascript"> 
+			function Click(){ 
+			alert('版权所有(C)2017 S.R工作室'); 
+			window.event.returnValue=false; 
+			} 
+			document.oncontextmenu=Click; 
+		</Script> 
+	
+	<!-- Set render engine for 360 browser -->
+	<meta name="renderer" content="webkit">
+
+	<!-- No Baidu Siteapp-->
+	<meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+	<link rel="icon" type="image/png" href="assets/i/favicon.png">
+
+	<!-- Add to homescreen for Chrome on Android -->
+	<meta name="mobile-web-app-capable" content="yes">
+	<link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+
+	<!-- Add to homescreen for Safari on iOS -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+	<link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+
+	<!-- Tile icon for Win8 (144x144 + tile color) -->
+	<meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+	<meta name="msapplication-TileColor" content="#0e90d2">
+
+	<link rel="stylesheet" href="assets/css/amazeui.min.css">
+	<link rel="stylesheet" href="assets/css/app.css">
+	<link rel="stylesheet" href="box.css">
+
+</head>
+<body>
+	
+	
+
+	<div id="bodyzhong">
+			<h1 style="text-align:center">欢迎光临SR个人空间</h1>
+			<hr/>
+			<ol class="am-breadcrumb">
+			<li><a href="#" class="am-icon-home">首页</a></li>
+			<!-- <li><a href="#">分类</a></li> -->
+			<li class="am-active">内容</li>
+			</ol>
+		<div class="am-g">
+			<div id="jianjie">
+				<h2 style="text-align:center">个人简介</h2>
+				<p style="text-align:center">欢迎关注我的个人公众号</p>
+				<div align="center">
+					<img src="pic/gzh.jpg" width="30%" id="tupian">
+				</div>
+			</div>
+				
+			<div  id="gongneng">
+			
+				<h2 style="text-align:center">主要功能</h2>
+				<table ID="Table1">
+				<tr>
+					<td width="100%" colspan="3"><p align="center"><b><FONT color="navy">课 程 表 查 询</FONT></b></p>
+					</td>
+				</tr>
+				<tr>
+					<td width="33%" align=center><A href="http://jxxx.ncut.edu.cn/cx/bj.asp">按班级查询课表</A></td>
+					<td width="33%" align=center><A href="http://jxxx.ncut.edu.cn/cx/sj.asp">按上课时间查询课表</A></td>
+					<td width="33%" align=center><A href="http://jxxx.ncut.edu.cn/cx/kjsb.asp">空教室查询</A></td>																						
+				</tr>
+				<tr>
+					<td width="33%" align=center><A href="http://jxxx.ncut.edu.cn/cx/jsb.asp">按教室查询课表</A></td>
+					<td width="33%" align=center><A href="http://jxxx.ncut.edu.cn/cx/sjhj.asp">按实践环节查询课表</A></td>
+					<td width="33%" align=center><A href="http://jxxx.ncut.edu.cn/cx/jslszy.asp">教室临时占用查询</A></td>
+				</tr>
+				<tr>
+					<td width="33%" align=center><A href="http://jxxx.ncut.edu.cn/cx/kc.asp">按课程查询课表</A></td>
+					<td width="33%" align=center><A href="http://jxxx.ncut.edu.cn/cx/sj1.asp">按时间查询实践环节</A></td>
+					<td width="33%" align=center><A href="http://jxxx.ncut.edu.cn/cx/dysj.asp">作息时间查询</A></td>											
+				</tr>
+				<tr>
+					<td width="33%" align=center><A href="http://jxxx.ncut.edu.cn/cx/js.asp">按教师查询课表</A></td>
+					<td width="33%" align=center><A href="http://jxxx.ncut.edu.cn/cx/tslb.asp">按特殊类别查询课表</A></td>
+					<td width="33%" align=center><A href="http://jxxx.ncut.edu.cn/cx/dy.asp">答疑时间地点查询</A></td>
+				</tr>
+				</table>	
+				
+			</div>
+			<div id="wenjuan">
+				<h2 style="text-align:center">调查问卷</h2>
+				<form class="am-form" action="action_page.php" method="POST" name="biaodan">
+					<fieldset>
+						<legend>一个问卷</legend>
+						<div class="am-form-group">
+							<label for="doc-select-1">请问作者帅么</label>
+							<select id="doc-select-1" name="shuaime">
+							<option value="henshuai">很帅</option>
+							<option value="feichangshuai">非常帅</option>
+							<option value="shuaisile">帅死了</option>
+							</select>
+							<span class="am-form-caret"></span>
+						</div>
+						
+						<div class="am-form-group">
+						<label for="doc-ta-1">你的意见</label>
+						<textarea class="" rows="5" id="doc-ta-1" name="yijian"></textarea>
+						</div>
+						<p><button type="submit" class="am-btn am-btn-default">提交</button></p>
+					</fieldset>
+				</form>
+				<p>请认真填写此问卷，您的意见对我们很重要。</br>
+					但是你填了我也看不到，因为我后端还没做好。（/微笑）</br>
+					如果你真的有一些意见建议，请点击下方告诉我们。</br>
+					<a href="http://form.mikecrm.com/oOF04z">点击这里</a>
+				</p>
+			
+			</div>
+			<div id="youlian">
+						<p>友情链接 <br/>
+						<ul>
+						<li><a href="http://www.ncut.edu.cn/">北方工业大学官网</a></li>
+						<li><a href="http://e.ncut.edu.cn/">多模式教学网</a></li>
+						<li><a href="http://jxxx.ncut.edu.cn/">教学信息网</a></li>
+						</ul>
+						</p>
+					</div>
+		</div>
+	</div>
+	
+
+<!--在这里编写你的代码-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="assets/js/amazeui.min.js"></script>
+</body>
+<footer data-am-widget="footer" class="am-footer am-footer-default" data-am-footer="{  }">
+    <div class="am-footer-miscs ">
+
+        <p>由<a href="#" onclick="Click()">SR工作室</a>提供技术支持</p>
+        <p>CopyRight©2017  AllMobilize Inc.</p>
+        <p>京ICP备88888888</p>
+    </div>
+</footer>
+
+
+</html>

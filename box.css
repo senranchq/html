@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem; /* =16px */
+}
+
+footer{
+	margin-left:auto;
+	margin-right:auto;
+	width:750px;
+}
+
+#bodyzhong{
+	margin-left:auto;
+	margin-right:auto;
+	width:750px;
+	border: 0;
+	overflow-style:scrollbar;
+}
+
+#jianjie{
+	background-color:#D9FFFF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#tupian{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#gongneng{
+	padding:  20px 15% 20px 15%;
+	background-color:#FFF4C1;
+}
+
+table, th, td{
+	border: 1px solid blue;
+	padding:5px;
+}
+
+#Table1{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#wenjuan{
+	padding:  20px 15% 10px 15%;
+	background-color:#C4E1E1;
+}
+
+#youlian{
+	padding:  20px 15% 10px 15%;
+	background-color:#FFDAC8;
+}
+
+
